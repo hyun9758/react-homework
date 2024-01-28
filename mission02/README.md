@@ -1,6 +1,6 @@
 ## 스크린샷
 
-![Alt text](image.png)
+<img src ="ReadmeImg/image.png">
 
 ## 어려웠던 점
 - contacts.json을 처음 사용해봐서 어떻게 사용해야 할지 헤매게 되었다. pockethost에 있는 속성과 아이디를 그대로 넣어서 랜더링하면 된다는 것을 알게 된 이후에는 여러 데이터들을 한 번에 넣기 좋다는 생각이 들었다. 과거 바닐라 프로젝트를 할 때도 하나씩 넣느라 무척 힘들었는데 실제로 랜더링 하는 것이 더 편해진 것 같다.
@@ -31,20 +31,19 @@
 
 ### 2.1. 실습 과정
 
-![Alt text](image-1.png)
+<img src ="ReadmeImg/image-1.png">
 
 우선 main.jsx 에서 app을 랜더링해주었다. 수업 시간에 배운 StrictMode를 활용하여 문제점을 더욱 발견하기 쉽게 설정해주었다.
 
-![Alt text](image-2.png)
+<img src ="ReadmeImg/image-2.png">
 
 App.jsx에서는 Media 를 연결해주었다. 하나씩 차근차근 함수를 연결해주려고 노력했다. 이후에는 contacts.json에서 사용할 데이터를 설정해주었다. 프로젝트에서 사용했던 미디어의 썸네일과 영상 링크, 이미지를 가져와서 각자 다른 아이디로 넣어주었다.
 
-![Alt text](image-3.png)
+<img src ="ReadmeImg/image-3.png">
 
 Media.jsx에서 연결해준 데이터를 불러오고 미디어 함수를 통해서 map 메소드를 활용했다. map 메소드를 활용하면 새로운 배열로 저장할 수 있기 때문에 결국 저장한 모든 이미지 데이터들을 랜더링할 수 있게 된다. 그렇게 모든 이미지들을 반환할 수 있게 되었다. 
 
-![Alt text](image-4.png)
-
+<img src ="ReadmeImg/image-4.png">
 ## 회고
 
 - 크게 한 것은 없지만 파일 경로 설정과 어떻게 랜더링을 해줘야 하는지, 그리고 수업 시간에 배웠던 StrictMode나 Map 메소드 등등을 활용해볼 수 있는 실습이라 좋았다. 사실 수업 시간에도 따라 치느라 바쁘거나 모를 때는 푸쉬로 손놓고 있었던 아쉬운 경우가 많았는데 직접 과제를 하고 실습할 시간이 주어지니까 좋았다. 
